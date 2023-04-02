@@ -1,7 +1,12 @@
 Dieses Skript ist für den [alt:V-Launcher](https://altv.mp).
 
-## Umsetzung (aktuell in Entwicklung)
-Dieses Skript erzeugt automatisch eine vehicleMods.json von einem Modding-Fahrzeug mit Hilfe von [CodeWalker.Core](https://github.com/dexyfex/CodeWalker) in dem alle Stammdaten der Tuningteile extrahiert werden. Diese können wie identisch wie die von [DurtyFree](https://github.com/DurtyFree) kostenfrei zur Verfügung gestellten [Export-Daten (GTA Original: vehicleModKits.json)](https://github.com/DurtyFree/gta-v-data-dumps) eingebunden werden um Modding-Fahrzeuge gleich einfach wie Orignale Fahrzeug einzubinden.
+## Allgemein
+Dieses Skript erzeugt automatisch eine vehicleMods.json von einer Modding-Fahrzeug Ressource mit Hilfe von [CodeWalker.Core](https://github.com/dexyfex/CodeWalker) in dem alle Stammdaten der Tuningteile extrahiert werden. Diese können wie identisch wie die von [DurtyFree](https://github.com/DurtyFree) kostenfrei zur Verfügung gestellten [Export-Daten (GTA Original: vehicleModKits.json)](https://github.com/DurtyFree/gta-v-data-dumps) eingebunden werden um Modding-Fahrzeuge gleich einfach wie orignale Fahrzeug einzubinden.
+
+## Anwendung
+Umgesetzt wurde das Skript als Konsolenanwendung um durch einen Paramter (Pfad zum Stream-Path) automatisch eine *vehicleMods.json*-Datei überschreibend in der Ressource zu erstellen. Starte in einer Konsole die **SkylineVVehicleTuning.exe** (im Bild Rot) und gib einen Pfad zu einer Ressource (Bspw. C:\ALTV-S\resources\vkunoisa\stream) an (im Bild Gelb) um darin die **vehicleModKits.json** (im Bild Grün) zu erstellen.
+
+![Preview](https://user-images.githubusercontent.com/3730600/229350752-d1080a25-737f-4c0f-a3d9-617214324e34.png)
 
 ## Unterstützte Typen
 ```
